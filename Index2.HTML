@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Brodie's Website</title>
+ <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    
+    li.dropdown {
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    </style>
+ 
+</head>
+<body>
+    <ul>
+    <li><a href="Index.HTML">Home</a></li>
+    <li><a href="Documentation.Html">Documentation</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content">
+        <a href="Element1.Html">Element1</a>
+        <a href="Element2.Html">Element 2</a>
+        <a href="Element3.Html">Element 3</a>
+        <a href="Element4.Html">Element 4</a>
+        <a href="Element5.Html">Element 5</a>
+      </div>
+    </li>
+  </ul>
+    <p>This is a website containing 5 javascript Elements that can be veiw by the drop down menu at the top of the screen </p>
+
+<ol>
+  <li>Demonstration of basic shapes, lighting, textures, shadows, and motion.</li><br>
+  <li>Demonstration of a 3D environment placing a selection of individual and cloned textured 
+    meshes (utilising some mesh merging) within a 360-degree scene with background image, 
+    textured terrain using a height map, appropriate lighting, and constrained camera motion.</li><br>
+  <li>Demonstration of a movable player mesh incorporating player functional animations. 
+    Interaction between player and other objects with a physics in applied</li><br>
+  <li>Demonstration of a Graphic user interface featuring a menu system and transitions from 
+    menu to an interactive scene. At least one GUI element should change in response to scene 
+    events. Audio should be initially off and turned on by a GUI element providing ambient 
+    background and sound effects in response to scene events</li> <br>
+  <li>Demonstration of two scenes which can be switched between either by GUI or in response 
+    to scene events. Each scene should incorporate the techniques explored in the module. 
+    This element provides the most opportunity for creativity and the introduction of game like 
+    aspects</li>
+
+</ol>
+
+  </body>
+</html>
